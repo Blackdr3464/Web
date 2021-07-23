@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.test {
+    display: flex;
+}
+
+.test>.icoin {
+    margin: auto;
+}
+
+.test i {
+    font-size: 50px;
+    color: black;
+}
+
+.test i:hover {
+    color: rgb(74, 74, 235);
+}
+
+.test a {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.test a p {
+    margin-left: 25px;
+}
+
+.test a p:hover {
+    opacity: 0.5;
+}
