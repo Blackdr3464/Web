@@ -4,24 +4,15 @@
     box-sizing: border-box;
 }
 
-.test {
+.Information {
     display: flex;
 }
 
-.test>.icoin {
+.Information>.address {
     margin: auto;
 }
 
-.test i {
-    font-size: 50px;
-    color: black;
-}
-
-.test i:hover {
-    color: rgb(74, 74, 235);
-}
-
-.test a {
+.address>.address_item a {
     text-decoration: none;
     font-family: arial, sans-serif;
     display: flex;
@@ -29,12 +20,31 @@
     text-transform: uppercase;
     color: #000;
     margin-bottom: 25px;
+    font-size: 50px;
+    color: black;
 }
 
-.test a p {
+.Information a p {
     margin-left: 25px;
+    font-size: 20px;
 }
 
-.test a p:hover {
+.Information a p:hover {
     opacity: 0.5;
+}
+
+.address_item.facebook i:hover {
+    color: rgb(107, 107, 233);
+}
+
+.address_item.instagram i:hover {
+    color: #e95950;
+}
+
+.address_item.youtube i:hover {
+    color: rgb(240, 27, 27);
+}
+
+.address_item.twitter i:hover {
+    color: rgb(29, 161, 242);
 }
